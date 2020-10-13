@@ -4,18 +4,15 @@ using System.Text;
 
 namespace Common
 {
-    class ZeroGenerator : INumberSequenceSource
+    public class ZeroGenerator : INumberSequenceSource
     {
         public int N { get; set; }
         public IEnumerable<int> GenerateNumbers()
         {
-            for (int i = 0; i < N +1; i++)
+            for (int i = 0; i < N; i++)
             {
                 yield return 0;
-            }
-            
+            }            
         }
-    };
-    {
     }
 }
