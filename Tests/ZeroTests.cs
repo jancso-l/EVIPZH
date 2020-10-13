@@ -15,8 +15,6 @@ namespace Tests
             ZeroGenerator zg = new ZeroGenerator();
             zg.N = 10;
             Assert.Equal(10, zg.GenerateNumbers().Count());
-
         }
-
     }
 }

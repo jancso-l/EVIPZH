@@ -10,12 +10,7 @@ namespace Common
         public PrimeGenerator(int N)
         {
             N = this.N;
-        }
-
-        public int Count()
-        {
-            throw new NotImplementedException();
-        }
+        }        
 
         public IEnumerable<int> GenerateNumbers()
         {
@@ -32,8 +27,6 @@ namespace Common
                 }                
             }
             return true;
-        }
-
-        
+        }        
     }
 }
