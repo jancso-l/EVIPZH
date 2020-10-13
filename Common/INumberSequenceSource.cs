@@ -7,6 +7,7 @@ namespace Common
     public interface INumberSequenceSource
     {
         IEnumerable<int> GenerateNumbers();
+        int Count();
     }
 
 
